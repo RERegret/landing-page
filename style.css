@@ -6,7 +6,7 @@ body {
     font-family: Roboto;
 }
 
-div img {
+.item img {
     width: 150px;
     height: auto;
     border: 10px;
@@ -46,18 +46,19 @@ a{
 .upper-part{
     background-color:#1F2937;
     color:white;
-    padding:10px;
+    padding:40px 0;
 }
 
 .upper-part-lower-half{
     display:flex;
-    justify-content: space-around;
+    align-items:flex-start;
+    justify-content: space-between;
     flex-direction:row;
 }
 
 .header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom:30px;
 }
 
@@ -69,5 +70,36 @@ a{
 .hero-secondary-text{
     font-size:18px;
     color:#E5E7EB;
+    max-width:400px;
+    line-height:1.5;
 }
 
+.upper-container{
+    max-width:1100px;
+    margin: 0 auto;
+}
+
+button{
+    border-radius:10px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    width:100px;
+    padding:5px;
+}
+.hero.text{
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width:520px;
+}
+
+.hero.image{
+flex-shrink: 0;
+width:360px;
+}
+
+.hero.image img{
+    width:100%;
+    height:auto;
+    display: block;
+}
