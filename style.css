@@ -19,6 +19,12 @@ body {
 
 .footer {
     margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
 
 .item img {
@@ -45,7 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    flex-shrink:0;
+    flex-shrink: 0;
 
 }
 
@@ -53,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom:40px;
+    padding-bottom: 40px;
 }
 
 .text-information {
@@ -152,4 +158,26 @@ button {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+.quotes{
+    height: 300px;
+    width: 700px;
+}
+.quote-main{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 300;
+}
+.quote-writer {
+    display:flex;
+    justify-content:flex-end;
 }
